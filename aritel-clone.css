@@ -1,0 +1,366 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:sans-serif;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+header{
+    font-size: 12px;
+    display: flex;
+    height: 40px;
+    justify-content: space-around;
+    font-weight: 900;
+    align-items: center;
+    border-bottom: 0.9px solid gray;
+}
+.heading01{
+    display: flex;
+    width: 300px;
+    justify-content: space-around;
+    margin-right: 730px;
+    align-items: center;
+   
+}
+.top01{
+    color: #e90000;
+}
+.top04{
+    color: #e90000;
+}
+.heading02{
+height: 50px;
+width: 100%;
+display: flex;
+font-size: 12px;
+align-items: center;
+justify-content: space-evenly;
+/* margin-left: 115px; */
+border-bottom: 0.9px solid gray;
+}.logo{
+    width: 40%;
+    display: flex;
+justify-content: center;
+/* align-items: center; */
+
+}
+.logo1{
+    background-image: url("airtel-logo3.jpeg");
+    /* background-color: blanchedalmond; */
+    background-size: cover;
+    width: 160px;
+    height: 40px;
+    margin-right: 270px;
+}
+.info{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:60%;
+    font-size: 12px;
+}
+.hero-section{
+    height: 400px;
+    display: flex;
+    align-items: center;
+}
+.info2{
+    display: flex;
+    flex-direction: column;
+    margin-left: 70px;
+}
+.know-more{
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 150px;
+    border-radius: 5px;
+    border-style: none;
+}
+.hero-section{
+    background-image: url("1440px.jpeg");
+    background-size: cover;
+    height: 385px;
+    width: 100%;
+}
+.heading03{
+    height: 365px;
+    background-color: #f7f7fa;
+    padding: 30px 0px 40px ;
+}
+.recharge{
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: -0.4px;
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    font-family: TondoBold, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rech-button{
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    margin-left: 270px;
+}
+.rech-button button{
+    height: 36px;
+    width: 119px;
+    border-radius: 18px;
+    background-color:#e3e5ff;
+    color: black;
+border-style: none;
+margin-top: 60px;
+}
+.number{
+    height: 42px;
+    width: 345px;
+    border-radius: 10px;
+    margin-top: 80px;
+    margin-left: 550px;
+    background-color: #ffffff;
+    border-color: #027bfc;
+    font-size: 18px;
+}
+.Recharge{
+    margin-top: 20px;
+    margin-left: 560px;
+    height: 40px;
+    width: 320px;
+    border-radius: 10px;
+    background-color: black;
+    color: #ffffff;
+    font-weight: 500;
+    border-style: none;
+    font-size: 14px;
+}
+.phone-rech{
+    background-color: #e90000;
+    color: #ffffff;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+}
+.get{
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+   height: 24px;
+   width: 68px;
+   border-color: #ffffff;
+   background-color: #ff4949;
+   color: white;
+border-radius: 20px;
+border-style: none;
+border: 1px solid white;
+}
+.offer-icon{
+    background-image: url("offer-icon (1).webp");
+    background-size: cover;
+    height: 36px;
+    width: 36px;
+    margin-bottom: 0px;
+}
+.heading04{
+    height: 300px;
+    padding-top: 53px;
+    padding-bottom: 58px;
+   background-color: #ffffff;
+   border-bottom: 0.7px solid gray;
+}
+.Buy-con{
+    display: flex;
+    justify-content: center;
+}
+.icon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 700px;
+    margin-left: 360px;
+margin-top: 20px;
+padding-bottom: 30px;
+}
+.icon button{
+    height: 56px;
+    width: 56px;
+    border-radius: 50%;
+    background-color: #e3e5ff;
+    border-style: none;
+    font-size: 20px;
+}
+.pra{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 360px;
+    font-size: 13px;
+    width: 710px;
+    
+}
+.big-button{
+    height: 90px;
+    width: 540px;
+    background-color: #ff4949;
+    margin-left: 430px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+margin-top: 40px;
+}
+.switch{
+margin-left: 10px;
+    background-image: url("switch-to-airtel-web (1).png");
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+}
+.switch-to p{
+    font-size: 12px;
+}
+.switch-to{
+    color: #f6f6f6;
+    margin-left: 12px;
+}
+.get-started{
+    height: 28px;
+    width: 103px;
+border-radius: 20px;
+background-color: #ff4949;
+color: #ffffff;
+border-style: none;
+border: 1px solid white;
+font-weight: 700;
+margin-left: 50px;
+}
+.recommend-section{
+    height: 500px;
+   background-color: #f7f7fa;
+padding: 73px 0px 32px;
+display: flex;
+flex-direction: column;
+   align-items: center;
+   justify-content: center;
+}
+.Recommended{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   font-weight: 700;
+ color: #292c32;
+}
+.rec{
+    height: 450px;
+    width: 1390px;
+margin-top: 30px;
+padding: 12px;
+display: flex;
+justify-content: space-evenly;
+}
+.sec-div1{
+    height: 430px;
+width: 380px;
+background-color: white;
+border-radius: 20px;
+border: 0.7px solid gray;
+}
+/* .sec-div2{
+    height: 430px;
+width: 380px;
+background-color: white;
+border-radius: 20px;
+border: 0.7px solid gray;
+} */
+.sec-div2{
+    height: 430px;
+width: 380px;
+background-color: white;
+border: 0.7px solid gray;
+border-radius: 20px;
+}
+
+.sec-div3{ height: 430px;
+    width: 380px;
+    background-color: white;
+    border: 0.7px solid gray;
+    border-radius: 20px;
+}
+.img01{
+   height:180px;
+    background-size: cover;
+    border-top-right-radius:20px ;
+    border-top-left-radius: 20px;
+    border: 0.7px solid gray;
+    border-top-left-radius: 20px;
+border-top-right-radius: 20px;
+}
+.line{
+    font-size: 14px;
+    color: #ff4949;
+    font-weight: 900;
+    padding: 13px 0px;
+    margin-left: 20px;
+}
+.Enjoy{
+    color: rgb(62, 65, 70);
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+}
+.more{
+    display: flex;
+    margin: 30px 0px 0px ;
+    padding: 35px 0px 0px;
+    justify-content: space-evenly;
+    width: 250px;
+}
+.more button{
+    background-color: #000000;
+    color: #f6f6f6;
+    border-radius: 10px;
+    height: 36px;
+    width: 112px;
+    border-style: none;
+}
+.more p{
+    color: #027fbc;
+    margin-top: 10px;
+}
+.wifi-plan{
+    height: 480px;
+    padding: 122px 0px 30px;
+    background-image: url("hero-airtel.jpeg");
+background-size: cover;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;}
+.select-sec{
+    height: 3800px;
+    width: 400px;
+    border-radius: 20px;
+    background-color: #f4f5ff;
+    margin-top: 20px;
+   padding: 20px;
+   /* display: flex;
+   flex-direction: column;
+   justify-content: center; */
+}
+.button{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 226px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+.button button{
+    font-weight: 500;
+    font-size: 15px;
+}
